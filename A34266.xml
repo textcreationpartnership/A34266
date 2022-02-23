@@ -1,0 +1,542 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Confusion of Babel a poem.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1683</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 17 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A34266</idno>
+            <idno type="STC">Wing C5809</idno>
+            <idno type="STC">ESTC R29675</idno>
+            <idno type="EEBO-CITATION">11192210</idno>
+            <idno type="OCLC">ocm 11192210</idno>
+            <idno type="VID">46640</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A34266)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 46640)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1438:25)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Confusion of Babel a poem.</title>
+               </titleStmt>
+               <extent>13 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for W. Davis ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>[1683?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of the original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-06</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-06</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:46640:1"/>
+            <pb facs="tcp:46640:1"/>
+            <p>THE CONFUSION OF BABEL.</p>
+            <p>A Poem.</p>
+            <q xml:lang="lat">—Quid nos Dira Refugimus Aetas quid intactum nefaſti Liquimus.</q>
+            <p>
+               <hi>Licenſed and Entred according to Order:</hi>
+            </p>
+            <p>LONDON, Printed for <hi>W. Davis,</hi> in <hi>Amen-Corner.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:46640:2"/>
+            <pb n="1" facs="tcp:46640:2"/>
+            <head>The Confuſion OF BABEL.</head>
+            <lg>
+               <l>IN what unhappy Times was the Foundation lay'd,</l>
+               <l>When Trait'rous Earth that bold Defiance made,</l>
+               <l>And ev'ry Atom its poor ſtrength betray'd ?</l>
+               <l>Some overpow'ring evil,</l>
+               <l>Like a deluding Devil,</l>
+               <l>Did ſtill attend the Ambitious Rout,</l>
+               <l>To generate, or bring their Treaſon out.</l>
+               <l>And could they dart at thy Imperial Throne,</l>
+               <l>Great God, to ſeperate thy Union;</l>
+               <l>Who art thus individed All in one?</l>
+               <l>Thus ſilly Mortals can Couragious grow,</l>
+               <l>With numbers, thinking to outweigh the Foe:</l>
+               <l>But never dream,</l>
+               <l>How much thy ſtrength ſurpaſſes them,</l>
+               <l>Till Ruin teaches them to ſee,</l>
+               <l>The difference 'twixt Worms and Heavens Majeſty.</l>
+               <l>
+                  <pb n="2" facs="tcp:46640:3"/>
+Not happy till their Ignorance they know.</l>
+               <l>What cou'd the ſenſeleſs Fabrick do,</l>
+               <l>Tho' Mountains on the top they threw?</l>
+               <l>Bold <hi>Aetna</hi> now in, Flames conſumes,</l>
+               <l>And belches out its nauſeous fumes,</l>
+               <l>Who dar'd ſo Impiouſly to aſpire,</l>
+               <l>And proudly Reach the All-revenging Fire.</l>
+            </lg>
+            <lg n="2">
+               <head>2.</head>
+               <l>The fruitful Earth unboſom'd all her ſtore,</l>
+               <l>Whoſe fatten'd Glebe was never poor,</l>
+               <l>Tho' impetuous Floods had Drown'd the world before.</l>
+               <l>Yet Covetous Man,</l>
+               <l>Tho' all this Liberty was given,</l>
+               <l>Muſt turn a Rebel and conſpire 'gainſt Heaven:</l>
+               <l>Still aggravaning his Fore-Fathers fall,</l>
+               <l>Who more by Pride then Ignorance; did Damn us all.</l>
+               <l>The guilty Stones cou'd repreſent,</l>
+               <l>Nothing but a Monument;</l>
+               <l>Whoſe vaſt Circumference might contain,</l>
+               <l>The endleſs Labours of their Brain,</l>
+               <l>And all the Frantick Whymſies bare,</l>
+               <l>That ever cou'd inhabit there.</l>
+               <l>Let beauteous <hi>Shinar</hi> now decay,</l>
+               <l>And periſh with th' infected Duſt,</l>
+               <l>Who prov'd ſo unfaithful in her truſt.</l>
+               <l>Nothing now thy ſhame can hide,</l>
+               <l>Who wer't by Nature Beautified,</l>
+               <l>Till affected Art ſwell'd thee up with Pride;</l>
+               <l>No wonder then thy eſteem is loſt,</l>
+               <l>Who war't confounded in the Coſt:</l>
+               <l>Now diff'rent Tongues may Curſe thy Name,</l>
+               <l>
+                  <pb n="3" facs="tcp:46640:3"/>
+And variouſly expreſs thy ſhame,</l>
+               <l>Who mad'ſt the world more impiouſly the ſame.</l>
+            </lg>
+            <lg n="3">
+               <head>2.</head>
+               <l>From this infected Hive,</l>
+               <l>All Nations do derive,</l>
+               <l>The Ills which to this day ſurvive.</l>
+               <l>Nor can we wonder at thy fall?</l>
+               <l>Since all thy Dreggs are Epidemical.</l>
+               <l>Let every Stone,</l>
+               <l>Weep to imagine what 't has done:</l>
+               <l>For all's derivative from thee alone.</l>
+               <l>
+                  <hi>England,</hi> that had th' Imperial Sway,</l>
+               <l>And bore the Victory of the day,</l>
+               <l>From hence did ſo inſenſibly decay.</l>
+               <l>What can we find,</l>
+               <l>Where there is nothing elſe but Wind?</l>
+               <l>For Pride ne'r leaves the plenteous Spoil behind.</l>
+               <l>The Zealous Rout cou'd lead the Rebels on,</l>
+               <l>And all for True Religion,</l>
+               <l>Which was Eſtabliſh'd, and yet none.</l>
+               <l>Their Tow'ring thoughts too proudly did aſpire,</l>
+               <l>But eyes will dim when held too near the Fire;</l>
+               <l>What is't in their fond Projects we admire?</l>
+               <l>Scepters and Crowns at ev'ry foot were thrown,</l>
+               <l>Tho' in th' deſcent,</l>
+               <l>The Head ne'r ſuffer'd that ſweet puniſhment,</l>
+               <l>But all was in Imagination;</l>
+               <l>And in that Pious Sect was found,</l>
+               <l>Pulpit above, but the Church under-ground,</l>
+               <l>With bluſt'ring Noiſe, but a meer empty ſound</l>
+            </lg>
+            <lg n="4">
+               <pb n="4" facs="tcp:46640:4"/>
+               <head>4.</head>
+               <l>The Faithful Brethren in a knot were ty'd,</l>
+               <l>Which to Diſ-ſect were Parricide;</l>
+               <l>Yet when an <hi>Alexander</hi> e're ſhall come,</l>
+               <l>They dread th' unwelcome Doom:</l>
+               <l>And think the Fate too near their home.</l>
+               <l>What cou'd Rebellious <hi>Cataline</hi> effect,</l>
+               <l>Tho' Armies to the Field he'd led?</l>
+               <l>Victor o're his Conquer'd Dead,</l>
+               <l>Yet his own ſelf he could not then protect.</l>
+               <l>
+                  <hi>Caeſar</hi> in Triumph there might Ride,</l>
+               <l>Tho' Enemies on ev'ry ſide:</l>
+               <l>And too great a number to deride:</l>
+               <l>Tho' Flames about the Sacred Altar dance,</l>
+               <l>'Tis yet ſecure from all injurious chance.</l>
+               <l>Security to Kings is always given,</l>
+               <l>(For Kings are all Allies to Heaven)</l>
+               <l>And tho' the Sea ſwell with impetuous rage,</l>
+               <l>Yet there are Pow'rs that can aſſwage</l>
+               <l>The ſhort-Iiv'd Fury, and comply</l>
+               <l>Within a Calm, t' effect a Prodigy.</l>
+               <l>No wonder now the Gyants fade,</l>
+               <l>When little Inſects learn their Trade.</l>
+               <l>And from a Mole-hill top would be,</l>
+               <l>Bleſt with Sacred Immortality.</l>
+            </lg>
+            <lg n="5">
+               <head>5.</head>
+               <l>The Pious Puritan may ſpare his breath,</l>
+               <l>And Pray'rs more fitter at his death.</l>
+               <l>Which by the Spirit laſt two hours long,</l>
+               <l>Mixt with a ſecret Curſe, and Holy Song.</l>
+               <l>The Funeral Requiems for great <hi>Charles's</hi> Soul,</l>
+               <l>
+                  <pb n="5" facs="tcp:46640:4"/>
+Are now unneceſſary things,</l>
+               <l>For Kings,</l>
+               <l>Still are more powerful where they leaſt controul.</l>
+               <l>Well may they gaze on Heav'n ſo faſt.</l>
+               <l>And take their leave, ſeeing 'tis the laſt:</l>
+               <l>Who knows but all their time is paſt.</l>
+               <l>O how they love to be,</l>
+               <l>Eunuch'd with ſtrange Formality;</l>
+               <l>Whoſe whitned eyes wou'd repreſent,</l>
+               <l>The happy thoughts of th' Innocent:</l>
+               <l>But within,</l>
+               <l>That ſordid Skin,</l>
+               <l>Lye the rank baits of all preſumptuous Sin:</l>
+               <l>That Piety ſhould yield,</l>
+               <l>And quit the field,</l>
+               <l>When ſuch pernicious Antichriſts ariſe;</l>
+               <l>Who wou'd at once their King and Country Sacrifice.</l>
+               <l>Of Solemn Black their Garbes are made,</l>
+               <l>To them an Emblem of the ſilent Shade:</l>
+               <l>Where Schiſm and Diſtraction Reigns,</l>
+               <l>The Element which all things curs'd maintains.</l>
+            </lg>
+            <lg n="6">
+               <head>6.</head>
+               <l>In the firſt Rank <hi>Diego</hi> ſtood,</l>
+               <l>An everlaſting Enemy to Good:</l>
+               <l>Whoſe Cure for his Diſeaſe was Innocent Blood.</l>
+               <l>Had he liv'd ſtill one might fear,</l>
+               <l>Th' <hi>Egyptian</hi> Murderer here.</l>
+               <l>What cou'd he leſs in ſuch a Cauſe maintain?</l>
+               <l>VVho wou'd Depoſe his Soveraign,</l>
+               <l>Or more compleatly have him ſlain.</l>
+               <l>
+                  <pb n="6" facs="tcp:46640:5"/>
+                  <hi>Diego,</hi> Curſed from his Mothers VVomb,</l>
+               <l>Born to be th' Epitaph to his Tomb:</l>
+               <l>Deform'd, and Crooked, whoſe miſtake</l>
+               <l>Did never yet a Circle make;</l>
+               <l>O how the little fiery Soul wou'd ſtorm!</l>
+               <l>VVhich from its Body took its Form.</l>
+               <l>And thoughts within that narrow compaſs breed,</l>
+               <l>VVhich might diſturb his very Aſhes now he's, dead.</l>
+               <l>VVhat cou'd the Puny Rebels do?</l>
+               <l>Tho' on the top of <hi>Babel</hi> he,</l>
+               <l>VVou'd Execute his Treachery,</l>
+               <l>Are there no Subjects left that can be True?</l>
+               <l>Honour and VVealth, did ſtill attend his days,</l>
+               <l>And Bounteous <hi>Charles</hi> preferr'd his praiſe:</l>
+               <l>But whilſt the hungry Serpent fled,</l>
+               <l>He ſecretly all o're his Venom ſpread.</l>
+               <l>VVell might the Forreign Nations keep</l>
+               <l>His Aſhes, now aſleep,</l>
+               <l>For here,</l>
+               <l>The fear,</l>
+               <l>Of <hi>Cadmas</hi> Brood were juſt,</l>
+               <l>VVhen Earth is mingled with ſuch poyſ'nous Duſt.</l>
+               <l>Old <hi>Charon</hi> gaz'd, when from the Brook,</l>
+               <l>The little Paſſenger he took;</l>
+               <l>VVith ſuch a Burthen on his back,</l>
+               <l>That made the aged Veſſel crack:</l>
+               <l>Amaz'd at this, he haſt'ned o're,</l>
+               <l>And ſet him on the ſhore;</l>
+               <l>VVhere all the Furies with one general ſhout,</l>
+               <l>Did the Magnetick Harbinger Salute.</l>
+            </lg>
+            <lg n="7">
+               <pb n="7" facs="tcp:46640:5"/>
+               <head>7.</head>
+               <l>Good <hi>Obadiah</hi> next,</l>
+               <l>Unfold the Text,</l>
+               <l>Whoſe Roſey Cheeks, and ſmiling Face,</l>
+               <l>Becomes the Office of his place,</l>
+               <l>And ſeem ſome Holy Gifts of Grace.</l>
+               <l>Then with ſound Doctrine he,</l>
+               <l>Feeds the Fraternity,</l>
+               <l>Till they repay again with Charity.</l>
+               <l>He Bellows out like a <hi>Geneva</hi> Bull,</l>
+               <l>Hell and Damnation, a Pulpit full.</l>
+               <l>Perilous Tyranny to this,</l>
+               <l>Seems rather happineſs,</l>
+               <l>For th' puniſhment was Death, but thine</l>
+               <l>Torture with active life doſt joyn.</l>
+               <l>Soul-ſaving Sentences are loſt,</l>
+               <l>When undervalu'd in the Coſt.</l>
+               <l>And thou like <hi>Quacks</hi> doſt Med'cines give,</l>
+               <l>With thouſand Names Superlative,</l>
+               <l>And all from Super-natural Providence doſt derive.</l>
+               <l>Shapes thou haſt had a thouſand more,</l>
+               <l>Then ever <hi>Proteus</hi> bore:</l>
+               <l>And in this,</l>
+               <l>Thou doſt Engroſs all <hi>Ovid's Metamorphoſis.</hi>
+               </l>
+               <l>Whither wilt thou go at laſt?</l>
+               <l>Having already through the <hi>Popes</hi> Dominions paſt,</l>
+               <l>And <hi>Purgatory</hi> too, with too much haſte.</l>
+               <l>Cou'dſt thou preſerve Great <hi>Charles</hi>'s Life?</l>
+               <l>Whoſe after-Perjuries were more,</l>
+               <l>Then all thy <hi>Memorandum</hi> Truths before.</l>
+               <l>Days, Months, and Year<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, were in thy Brain contain'd,</l>
+               <l>But the faithleſs Clock as yet,</l>
+               <l>
+                  <pb n="8" facs="tcp:46640:6"/>
+Never went true but when 'twas ſet.</l>
+               <l>And ſomething always by going backward gain'd.</l>
+               <l>All thy Luxurious Pomp and State,</l>
+               <l>Was but to make thee miſerably Great,</l>
+               <l>Or ſomething much beneath the turn of Fate.</l>
+               <l>No kind Compariſon will hide thy ſhame,</l>
+               <l>For now thy Name,</l>
+               <l>Is as Injurious as thy Fame.</l>
+               <l>For <hi>Pluto</hi>'s Porter now we may thee take,</l>
+               <l>When at thy Gate,</l>
+               <l>The Tripple-headed <hi>Cerbirus</hi> does always wait:</l>
+               <l>Thy <hi>Hydra</hi>-Witneſſes may hold their Tongue,</l>
+               <l>
+                  <hi>Aeſon</hi> again will never now be young,</l>
+               <l>Or Old Times be renew'd by living long.</l>
+               <l>Monarchs can ſee when at their Feet,</l>
+               <l>Reverence and Treaſon meet:</l>
+               <l>And thy Diſcovery might paſs,</l>
+               <l>Where through a Glaſs,</l>
+               <l>The Cheating Portait ſeem'd t'appear as 'twas.</l>
+            </lg>
+            <lg n="8">
+               <head>8.</head>
+               <l>And next the wretched <hi>Poliphus</hi> appears,</l>
+               <l>Whoſe younger Years,</l>
+               <l>Were ſpent in vicious Luſt,</l>
+               <l>Till the bright Luſtre periſht with the Ruſt.</l>
+               <l>Priſons and Goals him to contain,</l>
+               <l>Were then in vain,</l>
+               <l>When his inchanting Tongue cou'd let him act agen</l>
+               <l>Cou'd <hi>Don Tomazo</hi> repreſent his Crimes?</l>
+               <l>Or number up his Follies with the Times?</l>
+               <l>Too poor a Subject then he took,</l>
+               <l>And clipt the Volumn his Book:</l>
+               <l>O did the Perjur'd Villain know!</l>
+               <l>
+                  <pb n="9" facs="tcp:46640:6"/>
+What to our Maker, and our God we owe,</l>
+               <l>Life were no triffle to be ſhuffl'd ſo.</l>
+               <l>
+                  <hi>Ireland</hi> may ceaſe,</l>
+               <l>To boaſt its Peace,</l>
+               <l>From all pernicious poyſons there;</l>
+               <l>When Brutiſh Man ſhall claim the greater ſhare:</l>
+               <l>And with more eaſineſs can</l>
+               <l>Commence a Beaſt before a Man.</l>
+               <l>Unhappy Nation then, that th' Pillars ſhou'd,</l>
+               <l>Be Trayt'rous where the Fabrick ſtood:</l>
+               <l>And the deſerving Vertue periſh in the Wood.</l>
+               <l>For that Degree thou <hi>Poliphus</hi> wer't fit,</l>
+               <l>Who prov'd too Fatal in thy Wit:</l>
+               <l>Happy 'twere had thy Fortune Ruin'd it.</l>
+               <l>Thy Native Soil cannot be grateful now,</l>
+               <l>And Perjurers for Words we muſt allow,</l>
+               <l>But the Beaſt will drive when the Devil holds the Plow.</l>
+               <l>Strange that dull <hi>Ore</hi> ſhould cheat thy pining Soul,</l>
+               <l>And make thy Remedy more foul:</l>
+               <l>The Servile Captives ſcorn to feed,</l>
+               <l>Or Triumph o're their miſerable dead:</l>
+               <l>But waſh away,</l>
+               <l>With Tears, the Sympathizing Clay.</l>
+            </lg>
+            <lg n="9">
+               <head>9:</head>
+               <l>Why did the <hi>Renegadoes</hi> ſlyly peep,</l>
+               <l>Then Snore, to rouſe us from our drouſie ſleep?</l>
+               <l>But Noiſe will Eccho from the Trayt'rous Deep.</l>
+               <l>
+                  <hi>Faux</hi> might have ſatisfi'd his Will, but Night,</l>
+               <l>Trembl'd at his ſight,</l>
+               <l>And hover'd o're to hide the diſmal ſight:</l>
+               <l>But ſee what Nature now has done,</l>
+               <l>For Tapors vaniſh at th' approaching Sun:</l>
+               <l>
+                  <pb n="10" facs="tcp:46640:7"/>
+What tho' the undiſcover'd fire was lay'd,</l>
+               <l>Yet 'twas enough to be betray'd;</l>
+               <l>And thou the Sacrifice wer't made.</l>
+               <l>VVhen once <hi>Prometheus</hi> ſtole,</l>
+               <l>From <hi>Jove</hi> the Heav'nly Cole,</l>
+               <l>The Vulters gnaw'd his never dying Soul:</l>
+               <l>And with Juſtice was repay'd,</l>
+               <l>Who dy'd to ſave the Man he made.</l>
+               <l>Yet Hell ne'r troubled thee, nor Heaven,</l>
+               <l>For thou in th' meen,</l>
+               <l>Did'ſt hang between,</l>
+               <l>To make the unexpected Ballance even.</l>
+               <l>Traytors may think their work is done,</l>
+               <l>VVhen Reſolution makes them bold;</l>
+               <l>And that the fatal Tale is told,</l>
+               <l>VVhen the Prologue's but begun.</l>
+               <l>Alas their Conſcience does, betray their Guilt,</l>
+               <l>And they may gaze on him whoſe Blood they wou'd have ſpilt.</l>
+            </lg>
+            <lg n="10">
+               <head>10.</head>
+               <l>Tempeſtuous Storms may riſe,</l>
+               <l>And darken all the Skies;</l>
+               <l>The bluſt'ring VVinds may Buffet at the VVall,</l>
+               <l>But the Majeſtick Building will not fall.</l>
+               <l>The ſwelling VVaves may proudly Vaunt,</l>
+               <l>And the tim'rous Marriners daunt;</l>
+               <l>But when upon a Rock they'r toſt,</l>
+               <l>All the Majeſtick Fury's loſt.</l>
+               <l>Heart-hardned <hi>Pharoah,</hi> when <hi>Iſraelites</hi> He</l>
+               <l>Did follow through the Deep divided Sea;</l>
+               <l>His Triumph was before his Victory.</l>
+               <l>Chariots and Arms did beautifie the Train,</l>
+               <l>But all alas in vain!</l>
+               <l>
+                  <pb n="11" facs="tcp:46640:7"/>
+For tho' Revenge ſtill tortures to expire,</l>
+               <l>Yet too much water will Extinguiſh Fire.</l>
+               <l>The Guardian Pillar there was Light,</l>
+               <l>But on thy ſide ill-boding Night.</l>
+               <l>What could'ſt thou then expect,</l>
+               <l>When Heav'n the Innocent does ſtill protect?</l>
+               <l>The Sea thou cou'dſt not rule, altho' the Land,</l>
+               <l>Was at thy Soveraign Command,</l>
+               <l>And govern'd by thy Conqu'ring hand.</l>
+               <l>But Rebels Lives have but a ſhort Extent,</l>
+               <l>Nothing lives long in a ſtrange Element.</l>
+            </lg>
+            <lg n="11">
+               <head>11.</head>
+               <l>Why ſhould I number up the Tribe agen?</l>
+               <l>Or dream I ſaw the Tragick Seean?</l>
+               <l>The Catalogue its Title now does want,</l>
+               <l>O cou'd they but renew the Covenant,</l>
+               <l>How prittily the Devil wou'd play the Saint.</l>
+               <l>Like ſcatter'd Duſt before the Wind they flye,</l>
+               <l>And <hi>Aegypts</hi> Plague does verifie,</l>
+               <l>But on themſelves firſt the Diſeaſe muſt lye.</l>
+               <l>And whilſt the Marks-man thought to bare the ſpoil,</l>
+               <l>'Tis ſtrange the ſpecious Musket ſhou'd recoil!</l>
+               <l>Conſpiracies when once begun,</l>
+               <l>Still periſh more by going on,</l>
+               <l>And like the Viper does not reſt,</l>
+               <l>Unleſs it eat its way through its own Mothers Breaſt.</l>
+               <l>Preſaging Comets they may fear,</l>
+               <l>When every Year,</l>
+               <l>To tell their Ruin they appear.</l>
+               <l>Fantaſtick Viſions will not fright,</l>
+               <l>
+                  <pb n="12" facs="tcp:46640:8"/>
+Tho' made more horrid by the night:</l>
+               <l>But ſight is double by a flatt'ring Light.</l>
+               <l>Th' Imperial Eagle does not fear,</l>
+               <l>When the buzzing Inſects humm about his Ear,</l>
+               <l>Tho' they with all their buſie Train,</l>
+               <l>Paſs o're and o're his back again,</l>
+               <l>Like Marriners upon the quiet Main:</l>
+               <l>'Tis ſure he's ſenſible of what is done,</l>
+               <l>Whoſe Eyes can gaze upon the Sun.</l>
+            </lg>
+            <lg n="12">
+               <head>12.</head>
+               <l>Forreign Invaders now may quit their Arms,</l>
+               <l>And quite Unravel all their ſecret Charms:</l>
+               <l>For Bloſſoms on the flouriſhing Tree will laſt,</l>
+               <l>Whilſt milder Gales defend them from the Blaſt:</l>
+               <l>Thoſe fiery Zealots may repent,</l>
+               <l>Their Curs'd intent,</l>
+               <l>And Recollect the time they've ſpent:</l>
+               <l>Better 'twere far cou'd they but meet,</l>
+               <l>With Humble Rev'rence at Great <hi>Charles</hi>'s feet;</l>
+               <l>And their Obedience pay,</l>
+               <l>Like purling Rivers haſt'ning to the Sea.</l>
+               <l>But yet again they muſt diſpair,</l>
+               <l>For no polluted Soul comes there,</l>
+               <l>When to the Altar comes Amphibious Pray'r.</l>
+               <l>
+                  <hi>Caeſar</hi> need fear,</l>
+               <l>No <hi>Brutus</hi> here,</l>
+               <l>To all the Senate ſhou'd appear:</l>
+               <l>For from the Conſcious vain,</l>
+               <l>Wou'd ſpring the Sympathizing Blood again.</l>
+               <l>What tho' the Tow'ring Pile does fade,</l>
+               <l>
+                  <pb n="13" facs="tcp:46640:8"/>
+And ev'ry Stone is in Confuſion lay'd;</l>
+               <l>Yet all the Tongues this Ditty ſing,</l>
+               <l>And every one does ſtand,</l>
+               <l>Like Branded Pilferers Burnt on th' Hand,</l>
+               <l>Bawling out, <hi>God Save the KING.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
